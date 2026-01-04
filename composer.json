@@ -1,7 +1,6 @@
 {
     "name": "chargily/chargily-pro",
     "type": "library",
-    "version": "1.0",
     "description": "PHP Library for Chargily Pro",
     "keywords": [
         "Chargily-Pro",
