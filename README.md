@@ -3,4 +3,4 @@ PHP Package of Chargily Pro™, a PHP/Laravel SDK that enables seamless integrat
 
 # Documentation
 
-- [Jump to documentation](./vouchers/README.md)
+- [Jump to documentation](./documentation/README.md)
