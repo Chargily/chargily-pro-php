@@ -1,0 +1,52 @@
+{
+    "name": "chargily/chargily-pro",
+    "type": "library",
+    "version": "1.0",
+    "description": "PHP Library for Chargily Pro",
+    "keywords": [
+        "Chargily-Pro",
+        "pro.charrgily.com",
+        "digital product distribution",
+        "mobile recharge",
+        "flexi",
+        "Gift cards API"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ChargilyDev",
+            "role": "Developer"
+        },
+        {
+            "name": "Boubazine mohammed",
+            "email": "mohamedtorino161@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "guzzlehttp/guzzle": "^7.10",
+        "nesbot/carbon": "^3.11",
+        "medboubazine/number_format": "^1.1",
+        "illuminate/support": "^12.41",
+        "symfony/validator": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chargily\\ChargilyPro\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chargily\\ChargilyProTests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox --colors=always tests/"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^8.0",
+        "phpunit/phpunit": "^12.4",
+        "filp/whoops": "^2.18"
+    }
+}
